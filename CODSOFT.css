@@ -6,13 +6,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: transparent;
+    background-color: rgb(255, 137, 94);
 }
 
 /*---------------------LOGO---------------------*/
-#logomain{
-    height: 20%;
-    width: 20%;
+
+.logoMain{
+    display: inline-flex;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-left: 0;
+    width: 5%;
+    height: 8%;
+}
+/*---------------------MAIN-NAV1---------------------*/
+
+/*---------------------MAIN-NAV2---------------------*/
+
+.main-nav2 ul {
+    margin-top: -400px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    list-style: none;
+}
+
+.main-nav2 ul.main-menu2 {
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+.main-nav2 ul.main-menu2 li {
+    padding: 0 8px;
+}
+
+.main-nav2 ul.main-menu2 li a {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-menu2 {
+    display: inline-flex;
+    position: relative;
+    margin-top: 0;
+}
+
+.main-nav2 ul.main-menu2 li a:hover {
+    background-color: orangered;
+    border-bottom: 2px solid black;
 }
 
 /*---------------------Drop-Down---------------------*/
@@ -29,7 +75,7 @@
 }
 
 .dropBtn:hover {
-    background-color: #BB020E;
+    background-color: orangered;
 }
 
 .dropdown {
@@ -60,14 +106,14 @@
 }  
 
 .dropdown a:hover {
-    background-color: #BB020E;
+    background-color: orangered;
 }
 
 /*---------------------Slides---------------------*/
 
 .main-slide {
     width: 100%;
-    height: 380px;
+    height: 500px;
     margin: auto;
     box-shadow: 0px 0px 3px gray;
     position: relative;
@@ -81,6 +127,70 @@
     position: absolute;
 }
 
+.nav {
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+    margin-top: -300px;
+    display: flex;
+    padding: 20px;
+}
+
+.nav button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border-color: darkgray;
+    background-color: transparent;
+}
+
+.nav b{
+    background-color: transparent; 
+    position: relative; 
+    padding: 10px; 
+    margin-left: 0; 
+    height: 0; 
+    width: 100%; 
+    border-radius: 50px;
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+}
+
+.nav2 {
+    width: 100%;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    margin-top: -10px;
+    display: flex;
+    padding: 20px;
+}
+
+.nav2 #button1{
+    position: relative;
+    margin-left: 45%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    padding: 0 5px;
+    border-color: darkgray;
+    background-color: transparent;
+}
+
+.nav2 #button2, #button3, #button4, #button5{
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border-color: darkgray;
+    background-color: transparent;
+    position: relative;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button1:focus, #button2:focus, #button3:focus, #button4:focus, #button5:focus  {
+    background-color: orangered;
+}
+
 /*---------------------Media---------------------*/
 .show {
     display: block;
@@ -90,13 +200,22 @@
     .main-nav1 {
         visibility: collapse;
     }
+
     .main-nav2 {
         visibility: visible;
     }
 
-    #logomain{
-        height: 10%;
-        width: 10%;
+    .logoMain{
+        height: 3%;
+        width: 5%;
+    }
+
+    .goprevbtn{
+        margin-left: 80%;
+    }
+    
+    .gonextbtn{
+        margin-left: 1100%;
     }
 }
 
@@ -104,7 +223,16 @@
     .main-nav2 {
         visibility: collapse;
     }
+
     .main-nav1 {
         visibility: visible;
+    }
+
+    .goprevbtn{
+        margin-left: 10%;
+    }
+    
+    .gonextbtn{
+        margin-left: 230%;
     }
 }
