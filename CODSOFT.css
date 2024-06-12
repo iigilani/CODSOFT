@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+#logomain{
+    height: 20%;
+    width: 20%;
+}
+
+.dropBtn {
+    display: flex;
+    background-color: transparent;
+    color: black;
+    font-size: 40px;
+    margin-left: 700%;
+    margin-top: -15px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropBtn:hover {
+    background-color: #BB020E;
+}
+
+.dropdown {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgb(61, 61, 61);
+    z-index: 1;
+    transition: 1s;
+}
+
+.dropdown-content a {
+    font-size: 15px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}  
+
+.dropdown a:hover {
+    background-color: #BB020E;
+}
+
+.show {
+    display: block;
+}
+
+@media (min-width: 769px){
+    .main-nav1 {
+        visibility: collapse;
+    }
+    .main-nav2 {
+        visibility: visible;
+    }
+
+    #logomain{
+        height: 10%;
+        width: 10%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    .main-nav2 {
+        visibility: collapse;
+    }
+    .main-nav1 {
+        visibility: visible;
+    }
+}
