@@ -27,18 +27,6 @@
     margin-left: 0;
 }
 
-.dropBtn {
-    display: flex;
-    background-color: transparent;
-    color: #5A428E;
-    font-size: 40px;
-    margin-left: 950%;
-    margin-top: -60px;
-    border: none;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /*---------------------MAIN-NAV1---------------------*/
 
 /*---------------------MAIN-NAV2---------------------*/
@@ -83,6 +71,17 @@
 
 /*---------------------Drop-Down---------------------*/
 
+.dropBtn {
+    display: flex;
+    background-color: transparent;
+    color: #5A428E;
+    font-size: 40px;
+    margin-left: 950%;
+    margin-top: -60px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .dropBtn:hover {
     background-color: orangered;
@@ -96,6 +95,7 @@
 
 
 .dropdown-content {
+    margin-left: 30px;
     text-align: left;
     display: none;
     position: absolute;
