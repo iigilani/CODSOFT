@@ -76,7 +76,7 @@
     background-color: transparent;
     color: #5A428E;
     font-size: 40px;
-    margin-left: 950%;
+    margin-left: 970%;
     margin-top: -60px;
     border: none;
     cursor: pointer;
@@ -95,7 +95,7 @@
 
 
 .dropdown-content {
-    margin-left: 30px;
+    margin-left: 50px;
     text-align: left;
     display: none;
     position: absolute;
