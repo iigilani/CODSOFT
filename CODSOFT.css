@@ -13,18 +13,28 @@
 
 .logoMain{
     display: inline-flex;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: -10px;
     margin-left: 0;
-    width: 5%;
-    height: 8%;
+    height: 2%;
+    width: 4%;
 }
+
+.logoMain2{
+    display: inline-flex;
+    margin-top: -25px;
+    margin-bottom: -10px;
+    margin-left: 0;
+    height: 2%;
+    width: 4%;
+}
+
 /*---------------------MAIN-NAV1---------------------*/
 
 /*---------------------MAIN-NAV2---------------------*/
 
 .main-nav2 ul {
-    margin-top: -400px;
+    margin-top: -40px;
     margin-bottom: 10px;
     width: 100%;
     display: flex;
@@ -234,5 +244,9 @@
     
     .gonextbtn{
         margin-left: 230%;
+    }
+
+    .nav2 #button1{
+        margin-left: 30%;
     }
 }
