@@ -331,6 +331,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px){
+    
+    body{
+        overflow-x: hidden;
+    }
+
     .main-nav2 {
         visibility: collapse;
     }
