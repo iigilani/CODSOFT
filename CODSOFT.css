@@ -333,7 +333,7 @@
 @media (min-width: 320px) and (max-width: 768px){
     
     body{
-        overflow-x: hidden;
+        overflow-x: auto;
     }
 
     .main-nav2 {
