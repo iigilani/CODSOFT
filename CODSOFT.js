@@ -7,6 +7,7 @@ slides.forEach(
     }
 )
 
+
 const goPrev = () => {
     if (counter != 0) {
         counter--;
@@ -18,11 +19,7 @@ const goNext = () => {
     if (counter < slides.length - 1) {
         counter++;
         slideImage();
-        }
-    else if (ontouchstart < slides.length - 1) {
-      counter++;
-      slideImage();
-    }
+      }
 }
 
 const slideImage = () => {
