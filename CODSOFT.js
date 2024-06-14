@@ -19,6 +19,10 @@ const goNext = () => {
         counter++;
         slideImage();
         }
+    else if (ontouchstart < slides.length - 1) {
+      counter++;
+      slideImage();
+    }
 }
 
 const slideImage = () => {
