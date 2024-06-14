@@ -411,18 +411,21 @@
     }
 
     .section4 h1{
-        margin-top: -50%;
-        margin-left: 8.5%;
+        display: flex;
+        margin-top: -125%;
+        margin-left: 7.5%;
     }
     
     .section4 h2{
-        margin-top: -50%;
-        margin-left: 8.5%;
+        display: flex;
+        margin-top: 55%;
+        margin-left: 7.5%;
     }
     
     .section4 h3{
-        margin-top: -50%;
-        margin-left: 8.5%;
+        display: flex;
+        margin-top: 55%;
+        margin-left: 7.5%;
     }
 
 }
