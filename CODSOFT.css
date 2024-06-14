@@ -292,7 +292,7 @@
 
 .section4 h3{
     margin-left: 10.1%;
-    color: white;
+    color: #CD9C8A;
     position: relative;
     display: inline-flex;
     padding: 0 10px;
@@ -424,6 +424,7 @@
     
     .section4 h3{
         display: flex;
+        color: white;
         margin-top: 75%;
         margin-left: 7.5%;
     }
