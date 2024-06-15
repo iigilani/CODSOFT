@@ -100,3 +100,48 @@ window.onclick = function(event) {
       }
     }
   }
+
+//--------------Calculator---------------------//
+
+  
+  let display = document.getElementById('caldisplay');
+  let firstNumber = '';
+  let secondNumber = '';
+  let operation = null;
+  let shouldResetDisplay = false;
+
+  function appendNumber(number) {
+      if (shouldResetDisplay) {
+          display.value = '';
+          shouldResetDisplay = false;
+      }
+      display.value += number;
+  }
+
+  function setOperation(op) {
+      if (firstNumber === '') {
+          firstNumber = display.value;
+      } else if (operation) {
+          secondNumber = display.value;
+          calculateResult();
+          firstNumber = display.value;
+      }
+      operation = op;
+      shouldResetDisplay = true;
+  }
+
+  function calculateResult() {
+      if (firstNumber === '' || operation === null) return;
+      secondNumber = display.value;
+      display.value = eval(`${firstNumber}${operation}${secondNumber}`);
+      firstNumber = '';
+      secondNumber = '';
+      operation = null;
+  }
+
+  function clearDisplay() {
+      display.value = '';
+      firstNumber = '';
+      secondNumber = '';
+      operation = null;
+  }
