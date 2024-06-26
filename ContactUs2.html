@@ -38,19 +38,31 @@
             </div>
         </ul>
     </div>
-    <div class="section4">
-        <img id="img7" src="background.jpg" alt="Background">
-        <img id="img8" src="My-Pic3.png" alt="img">
-        <h1 id="Name" >S.Ismail Gilani</h1>
-        <p id="Message">Hello and thank you for visiting! I'm Syed Ismail Gilani, a beginner web designer with a passion for crafting visually appealing and user-friendly websites. I aim to merge creativity with technical know-how to create sites that not only look stunning but also function flawlessly.
-            <br><br>My journey in web design began with a fascination for the synergy between aesthetics and functionality in enhancing user experiences. Through continuous learning and hands-on practice, I've developed skills in HTML, CSS, and JavaScript, and have delved into various design principles and tools.
-            <br><br>In this portfolio, you'll find a showcase of my recent projects, each meticulously crafted to meet client objectives with attention to detail. Whether you need a responsive design that adapts beautifully across devices or a clean interface that intuitively guides users, I am committed to bringing your vision to life.
-            <br><br>I am excited to contribute my creativity and technical expertise to your next web design project. Please explore my portfolio and feel free to reach out to discuss how we can collaborate to create something exceptional together.
-            <br><br>Thank you for your time, and I look forward to connecting with you!</p>
-    </div>
-    <div>
-        <a href="https://www.google.com/"><button class="image-button">Contact Us</button></a>
-    </div>
     <script src="CODSOFT.js"></script>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="your-form-handler-url" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required maxlength="25">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required maxlength="35">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required maxlength="200"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <div class="contact-info">
+            <p><strong>Email:</strong> info@mgmdxb.com</p>
+            <p><strong>Phone:</strong> +92(333)2900133</p>
+            <p><strong>Address:</strong> 123 Your Street, Your City, Your Country</p>
+        </div>
+    </div>
 </body>
 </html>

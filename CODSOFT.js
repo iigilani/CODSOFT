@@ -104,7 +104,7 @@ window.onclick = function(event) {
 //--------------Calculator---------------------//
 
   
-  let display = document.getElementById('caldisplay');
+  let display = document.getElementById('display');
   let firstNumber = '';
   let secondNumber = '';
   let operation = null;

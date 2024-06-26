@@ -39,17 +39,32 @@
         </ul>
     </div>
     <div class="section4">
-        <img id="img7" src="background.jpg" alt="Background">
-        <img id="img8" src="My-Pic3.png" alt="img">
-        <h1 id="Name" >S.Ismail Gilani</h1>
-        <p id="Message">Hello and thank you for visiting! I'm Syed Ismail Gilani, a beginner web designer with a passion for crafting visually appealing and user-friendly websites. I aim to merge creativity with technical know-how to create sites that not only look stunning but also function flawlessly.
-            <br><br>My journey in web design began with a fascination for the synergy between aesthetics and functionality in enhancing user experiences. Through continuous learning and hands-on practice, I've developed skills in HTML, CSS, and JavaScript, and have delved into various design principles and tools.
-            <br><br>In this portfolio, you'll find a showcase of my recent projects, each meticulously crafted to meet client objectives with attention to detail. Whether you need a responsive design that adapts beautifully across devices or a clean interface that intuitively guides users, I am committed to bringing your vision to life.
-            <br><br>I am excited to contribute my creativity and technical expertise to your next web design project. Please explore my portfolio and feel free to reach out to discuss how we can collaborate to create something exceptional together.
-            <br><br>Thank you for your time, and I look forward to connecting with you!</p>
-    </div>
-    <div>
-        <a href="https://www.google.com/"><button class="image-button">Contact Us</button></a>
+        <img id="img9" src="background.jpg" alt="Background">
+        <div class="CalculatorMain">
+            <h1 id="CalH">Calculator</h1>
+            <div class="calculator">
+                <input type="text" class="display" id="display" disabled>
+                <div class="buttons">
+                    <button onclick="appendNumber('7')">7</button>
+                    <button onclick="appendNumber('8')">8</button>
+                    <button onclick="appendNumber('9')">9</button>
+                    <button onclick="setOperation('/')">/</button>
+                    <button onclick="appendNumber('4')">4</button>
+                    <button onclick="appendNumber('5')">5</button>
+                    <button onclick="appendNumber('6')">6</button>
+                    <button onclick="setOperation('*')">*</button>
+                    <button onclick="appendNumber('1')">1</button>
+                    <button onclick="appendNumber('2')">2</button>
+                    <button onclick="appendNumber('3')">3</button>
+                    <button onclick="setOperation('-')">-</button>
+                    <button onclick="appendNumber('0')">0</button>
+                    <button onclick="appendNumber('.')">.</button>
+                    <button onclick="calculateResult()">=</button>
+                    <button onclick="setOperation('+')">+</button>
+                    <button onclick="clearDisplay()" colspan="4">C</button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="CODSOFT.js"></script>
 </body>
