@@ -547,6 +547,11 @@ a {
 }
 
 @media (min-width: 769px){
+
+    body{
+        overflow-x: hidden;
+    }
+    
     .main-nav1 {
         visibility: collapse;
     }
