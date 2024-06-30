@@ -127,7 +127,7 @@
 }
 
 
-.d100pxtent 
+.dropdown-content 
 {
     margin-left: 50px;
     text-align: left;
@@ -141,7 +141,7 @@
     transition: 1s;
 }
 
-.d100pxtent 
+.dropdown-content
 a {
     font-size: 15px;
     color: #5A428E;
@@ -547,16 +547,11 @@ a {
 }
 
 @media (min-width: 769px){
-
-    body{
-        overflow-x: hidden;
-    }
-    
-    .main-nav1 {
+    .main-nav1{
         visibility: collapse;
     }
 
-    .main-nav2 {
+    .main-nav2{
         visibility: visible;
     }
 
@@ -576,17 +571,13 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 768px){
-    
-    body{
-        overflow-x: hidden;
-    }
 
-    .main-nav2 {
-        visibility: collapse;
-    }
-
-    .main-nav1 {
+    .main-nav1{
         visibility: visible;
+    }
+
+    .main-nav2{
+        visibility: collapse;
     }
 
     .goprevbtn{
